@@ -62,19 +62,17 @@ body {
   width: 75%;
 }
 
-.split h1 {
-  font-size: 30px !important;
-  margin: 12px 0 20px !important;
-}
-
 .split.left,
 .split.right {
-  background-size: auto 80% !important;
-  background-position: center bottom !important;
-  background-repeat: no-repeat !important;
+  background-size: auto 80%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  transition: width 2s ease-in-out,
+              background-size 2s ease-in-out;
 }
 
-.active-left .right,
-.active-right .left {
-  width: 25%;
+/* Amplía la imagen del panel activo */
+.active-left .split.left,
+.active-right .split.right {
+  background-size: auto 100%;
 }
