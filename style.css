@@ -45,7 +45,7 @@ h1 {
   position: absolute;
   right: 0;
   background-image: url("./images/iPhone_apple.png");
-  background-size: auto 65%;
+  background-size: auto 480px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #f7f8ff;
@@ -55,7 +55,7 @@ h1 {
   position: absolute;
   left: 0;
   background-image: url("./images/samsung_galaxy.png");
-  background-size: auto 65%;
+  background-size: auto 480px;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #f7f8ff;
