@@ -38,17 +38,21 @@ h1 {
 }
 
 .split.right {
-    position: absolute;
-    right: 0;
-    background-image: url("./images/iPhone_apple.png");
-    background-size: cover;
+  position: absolute;
+  right: 0;
+  background-image: url("./images/iPhone_apple.png");
+  background-size: 75% auto;
+  background-position: center;
+  background-repeat: no-repeat;
   }  
 
 .split.left {
   position: absolute;
   left: 0;
   background-image: url("./images/samsung_galaxy.png");
-  background-size: cover;
+  background-size: 75% auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
