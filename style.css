@@ -40,14 +40,14 @@ h1 {
 .split.right {
     position: absolute;
     right: 0;
-    background-image: url("https://androidworldw.com/wp-content/uploads/2020/06/iphone-13.jpg");
+    background-image: url("./images/iPhone_apple.png");
     background-size: cover;
   }  
 
 .split.left {
   position: absolute;
   left: 0;
-  background-image: url("https://idflmobile.com/wp-content/uploads/2021/01/Samsung-S21-Plus-Silver-600x495.jpg");
+  background-image: url("./images/samsung_galaxy.png");
   background-size: cover;
 }
 
