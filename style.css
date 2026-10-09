@@ -72,9 +72,20 @@ body {
 }
 
 /* Amplía la imagen del panel activo */
-.active-left .split.left,
-.active-right .split.right {
-  background-size: auto 100%;
+.active-left .left {
+  width: 60%;
+}
+
+.active-left .right {
+  width: 40%;
+}
+
+.active-right .left {
+  width: 40%;
+}
+
+.active-right .right {
+  width: 60%;
 }
 
 /* Mantiene cada imagen y su contenido dentro de su panel */
