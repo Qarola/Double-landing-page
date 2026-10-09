@@ -76,3 +76,19 @@ body {
 .active-right .split.right {
   background-size: auto 100%;
 }
+
+/* Mantiene cada imagen y su contenido dentro de su panel */
+.split.left,
+.split.right {
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Baja los botones y los centra en cada mitad */
+.split .btn {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
