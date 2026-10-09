@@ -62,6 +62,18 @@ body {
   width: 75%;
 }
 
+.split h1 {
+  font-size: 30px !important;
+  margin: 12px 0 20px !important;
+}
+
+.split.left,
+.split.right {
+  background-size: auto 80% !important;
+  background-position: center bottom !important;
+  background-repeat: no-repeat !important;
+}
+
 .active-left .right,
 .active-right .left {
   width: 25%;
