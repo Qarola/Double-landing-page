@@ -39,6 +39,8 @@ body {
   color: aliceblue;
   backdrop-filter: brightness(0.5);
   letter-spacing: 4px;
+  padding: 8px 0 12px;
+  line-height: 1.2;
 }
 
 .split .btn {
