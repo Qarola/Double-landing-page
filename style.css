@@ -37,6 +37,10 @@ h1 {
   top: 0;
 }
 
+.split h1 {
+  font-size: clamp(3rem, 5vw, 5rem);
+}
+
 .split.right {
   position: absolute;
   right: 0;
