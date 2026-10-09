@@ -103,3 +103,17 @@ body {
   transform: translateX(-50%);
   margin: 0;
 }
+
+.split.left,
+.split.right {
+  background-size: auto 80%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  transition: width 2s ease-in-out,
+              background-size 2s ease-in-out;
+}
+
+.active-left .left,
+.active-right .right {
+  background-size: auto 110%;
+}
